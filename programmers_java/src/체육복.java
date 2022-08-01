@@ -11,7 +11,7 @@ public class 체육복 {
         int answer = n;
         int[] students = new int[n];
 
-        //도둑맞은 사람은 -1 해주자
+        //도둑맞은 사람은 -1 해주자ㄳ
         for (int l : lost)
             students[l-1]--;
 
