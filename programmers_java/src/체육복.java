@@ -4,12 +4,14 @@ import java.util.Arrays;
  * https://school.programmers.co.kr/learn/courses/30/lessons/42862?language=java
  * 220801
  */
+
+//깃수정~
 public class 체육복 {
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = n;
         int[] students = new int[n];
 
-        //도둑맞은 사람은 -1
+        //도둑맞은 사람은 -1 해주자
         for (int l : lost)
             students[l-1]--;
 
