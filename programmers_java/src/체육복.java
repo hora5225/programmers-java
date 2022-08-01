@@ -13,7 +13,7 @@ public class 체육복 {
         for (int l : lost)
             students[l-1]--;
 
-        //reserve인 사람은 +1
+        //reserve인 사람은 +1 해준다
         for (int r : reserve)
             students[r-1]++;
 
