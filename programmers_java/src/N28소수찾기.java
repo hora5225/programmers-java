@@ -1,13 +1,8 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/12921
  * 2220802
  */
-public class 소수찾기 {
+public class N28소수찾기 {
     public int solution(int n) {
         int answer = 0;
         int[] arr = new int[n]; //기본으로 모든 값이 0으로 초기화됨
@@ -26,7 +21,7 @@ public class 소수찾기 {
     }
 
     public static void main(String[] args) {
-        소수찾기 s = new 소수찾기();
+        N28소수찾기 s = new N28소수찾기();
         System.out.println(s.solution(10));
     }
 }

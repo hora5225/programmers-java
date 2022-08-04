@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
 
 
 //class Solution {
@@ -22,7 +21,7 @@ import java.util.Comparator;
 //    }
 
 
-class 문자열내마음대로정렬하기 {
+class N26문자열내마음대로정렬하기 {
     public String[] solution(String[] strings, int n){
         String[] answer = new String[strings.length];
 
@@ -44,7 +43,7 @@ class 문자열내마음대로정렬하기 {
     }
 
     public static void main(String[] args) {
-        문자열내마음대로정렬하기 s = new 문자열내마음대로정렬하기();
+        N26문자열내마음대로정렬하기 s = new N26문자열내마음대로정렬하기();
         String[] strings = {"sun", "bed", "car"};
         int n = 1;
         System.out.println(Arrays.toString(s.solution(strings, n)));
