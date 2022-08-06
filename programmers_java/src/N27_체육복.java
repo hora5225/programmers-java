@@ -4,7 +4,7 @@
  */
 
 //깃수정~
-public class N27체육복 {
+public class N27_체육복 {
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = n;
         int[] students = new int[n];

@@ -2,7 +2,7 @@
  * https://school.programmers.co.kr/learn/courses/30/lessons/12926
  * 220804
  */
-public class N30시저암호 {
+public class N30_시저암호 {
     public String solution(String s, int n) {
         String answer = "";
         StringBuilder sb = new StringBuilder();
@@ -32,7 +32,7 @@ public class N30시저암호 {
     }
 
     public static void main(String[] args) {
-        N30시저암호 n30 = new N30시저암호();
+        N30_시저암호 n30 = new N30_시저암호();
         String s = "a B z";
         int n = 4;
         System.out.println(n30.solution(s, n));

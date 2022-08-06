@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * https://school.programmers.co.kr/learn/courses/30/lessons/12928
  * 220802
  */
-public class N29약수의합 {
+public class N29_약수의합 {
     public int solution(int n) {
         int answer = 0;
         if(n==1){   //1일때는 그냥 리턴
@@ -31,7 +31,7 @@ public class N29약수의합 {
     }
 
     public static void main(String[] args) {
-        N29약수의합 s = new N29약수의합();
+        N29_약수의합 s = new N29_약수의합();
         int n = 12;
         System.out.println(s.solution(n));
     }
