@@ -13,6 +13,7 @@ public class N31_K번째수 {
         ArrayList<Integer> list = new ArrayList<>();
 
         for(int i = 0; i<commands.length; i++){
+
             int startIndex = commands[i][0]-1;  // i
             int endIndex = commands[i][1]-1;    // j
             int getIndex = commands[i][2]-1;    // k
@@ -30,7 +31,7 @@ public class N31_K번째수 {
             System.out.println(list);   // println 하면 자동으로 toString() 이 붙는다.
 
             answer[i] = list.get(getIndex); // k 번째 값을 answer[i] 에 저장
-            list.clear();   //다썼으니까 지워준다. 이거 안하면 만든거 뒤에 계속 붙음 아니면 포문 처음에 다시 객체 생성해줘야함
+            list.clear();//다썼으니까 지워준다. 이거 안하면 만든거 뒤에 계속 붙음 아니면 포문 처음에 다시 객체 생성해줘야함
 
         }
         return answer;
