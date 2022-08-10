@@ -17,6 +17,9 @@ public class N32_폰켓몬 {
         } else {
             answer = set.size();    //그게 아니면 한종류씩 다 델구갈수있다
         }
+
+        //삼항 연산자 사용하자
+        //return (nums.length / 2 > a.size()) ? a.size() : nums.length / 2;
         return answer;
     }//end of solution
 
