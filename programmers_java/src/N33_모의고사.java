@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 /**
  * https://school.programmers.co.kr/learn/courses/30/lessons/42840
@@ -61,8 +62,9 @@ public class N33_모의고사 {
 
         //정답 개수 모아서 리스트생성
         ArrayList<Integer> cnt = new ArrayList<>(Arrays.asList(cntA, cntB, cntC));
-
-        int max = Math.max((Math.max(cntA, cntB)), cntC);   //최고 정답자의 정답 수 찾기
+        //int max = cnt.stream().mapToInt(i->i).max().getAsInt();
+        int max = Collections.max(cnt);
+        //int max = Math.max((Math.max(cntA, cntB)), cntC);   //최고 정답자의 정답 수 찾기
         //System.out.println(max);
 
         ArrayList<Integer> ans = new ArrayList<>();
